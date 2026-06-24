@@ -550,6 +550,70 @@
     .stripe { width: 28px; height: 4px; border-radius: 2px; }
 
     /* ══════════════════════════════════
+   REMERCIEMENTS
+══════════════════════════════════ */
+
+.section-thanks{
+  background:#ffffff;
+  padding:100px 56px;
+}
+
+.thanks-eyebrow{
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.18em;
+  text-transform:uppercase;
+  color:var(--red);
+  margin-bottom:12px;
+  text-align:center;
+}
+
+.thanks-title{
+  font-family:'Plus Jakarta Sans',sans-serif;
+  font-size:clamp(30px,3vw,46px);
+  font-weight:800;
+  text-align:center;
+  margin-bottom:40px;
+  color:var(--deep);
+}
+
+.thanks-card{
+  max-width:900px;
+  margin:auto;
+  background:var(--white);
+  border-radius:28px;
+  padding:40px;
+  border:1px solid rgba(232,25,44,.08);
+  box-shadow:0 20px 60px rgba(26,10,14,.08);
+}
+
+.thanks-card p{
+  font-size:16px;
+  line-height:1.9;
+  color:var(--gray);
+  margin-bottom:22px;
+}
+
+.thanks-signature{
+  margin-top:30px;
+  text-align:center;
+  font-family:'Plus Jakarta Sans',sans-serif;
+  font-size:18px;
+  color:var(--deep);
+  line-height:1.8;
+}
+
+@media(max-width:960px){
+  .section-thanks{
+    padding:70px 24px;
+  }
+
+  .thanks-card{
+    padding:28px;
+  }
+}
+
+    /* ══════════════════════════════════
        UTILITIES
     ══════════════════════════════════ */
     .reveal { opacity:0; transform:translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
@@ -778,6 +842,45 @@
   <p class="quote-date">Senior Developer & Web Designer · 23 Juin 2026</p>
 </section>
 
+
+<!-- ── REMERCIEMENTS ── -->
+<section class="section-thanks" id="remerciements">
+  <div class="sec-inner">
+
+    <p class="thanks-eyebrow reveal">
+      Remerciements · 23 Juin 2026
+    </p>
+
+    <h2 class="thanks-title reveal">
+      Merci du fond du cœur ❤️
+    </h2>
+
+    <div class="thanks-card reveal">
+
+      <p>
+        ✨ Les témoignages d'affection révèlent la richesse des liens que Dieu nous permet de tisser au fil de notre existence.
+      </p>
+
+      <p>
+        🙏 À travers vos messages, vos prières, vos bénédictions, votre présence et toutes les marques d'attention reçues à l'occasion de mon anniversaire, j'ai une fois encore mesuré la grâce d'être entouré de personnes aussi formidables.
+      </p>
+
+     <p>
+        🤝 Ma profonde gratitude à ma famille, à mes amis, à mes collègues, aux choristes, à toute la communauté paroissiale ainsi qu'à toutes les personnes qui ont bien voulu se déplacer pour prendre part à la messe d'action de grâce. Par votre présence, vos prières et votre communion fraternelle, vous avez contribué à faire de cette journée un moment de grâce, de joie et de reconnaissance envers Dieu.
+    </p>
+
+      <p>
+        💒 Je rends grâce à Dieu pour chacun de vous et prie qu'Il continue de nous unir dans l'amour, la foi et le service.
+      </p>
+
+      <div class="thanks-signature">
+        ❤️ Avec toute ma gratitude<br>
+        <strong>AKAGO Dossou Audrey</strong>
+      </div>
+
+    </div>
+  </div>
+</section>
 <!-- ── FOOTER ── -->
 <footer>
   <div class="foot-brand">HBD<span>.</span>AKAGO</div>
